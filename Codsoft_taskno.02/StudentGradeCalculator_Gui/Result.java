@@ -31,6 +31,11 @@ public class Result extends JFrame {
         showName.setForeground(Color.BLUE);
         add(showName);
 
+        JLabel line = new JLabel("  ------------------------------------------------------------------------------------");
+        line.setBounds(401, 75, 1000, 40);
+        line.setFont(new Font("Times New Roman", Font.PLAIN, 22));
+        add(line);
+
         JLabel total1 = new JLabel("Total                   -> ");
         total1.setBounds(536, 150, 500, 25);
         total1.setFont(new Font("Times New Roman", Font.BOLD, 22));
