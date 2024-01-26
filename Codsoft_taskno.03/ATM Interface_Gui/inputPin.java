@@ -50,11 +50,11 @@ public class inputPin extends JFrame {
                     new Transactions(balanceAmount);
                 }
                 else{
-                    JOptionPane.showMessageDialog(this, " Enter valid pin..! ");
+                    JOptionPane.showMessageDialog(this, " Enter valid pin number..! ");
                 }
             }
             catch(Exception exception){
-                JOptionPane.showMessageDialog(this, " Enter valid pin..! ");
+                JOptionPane.showMessageDialog(this, " Enter valid pin number..! ");
             }
         });
     }
